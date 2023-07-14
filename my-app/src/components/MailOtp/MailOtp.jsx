@@ -42,7 +42,7 @@ const MailOtp = () => {
 
   return (
     <div>
-      <h1>Mail varification </h1>
+      <h1>Enter Mail  </h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Email:</label>

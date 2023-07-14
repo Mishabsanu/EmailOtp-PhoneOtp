@@ -79,6 +79,9 @@ const Login = () => {
           </span>
         </Link>
       </div>
+        <span>
+        Don't have an account? <Link style={{textDecoration:"none"}} to="/signup">Signup</Link>
+      </span>
     </div>
   );
 };

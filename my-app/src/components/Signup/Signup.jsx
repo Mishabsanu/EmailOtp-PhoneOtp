@@ -72,7 +72,7 @@ const Signup = () => {
       {error && <div className="error_msg">{error}</div>}
       <ToastContainer />
       <span>
-        Don't have an account? <Link to="/login">Login</Link>
+        Already have an account? <Link style={{textDecoration:"none"}} to="/login">Login</Link>
       </span>
     </div>
   );

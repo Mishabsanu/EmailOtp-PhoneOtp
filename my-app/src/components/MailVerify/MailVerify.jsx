@@ -39,7 +39,7 @@ const MailVerify = () => {
 
   return (
     <div>
-      <h1> Mail OTP</h1>
+      <h1>Enter Mail OTP</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Email OTP:</label>
